@@ -1,0 +1,18 @@
+{
+	"name": "spring-demo",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspace",
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"java.home": "/docker-java-home",
+		"maven.executable.path": "/usr/local/sdkman/candidates/maven/current/bin/mvn"
+	},
+    "extensions": [
+		"vscjava.vscode-java-pack"
+	],
+	"forwardPorts": [
+		8080, 
+		5432
+	]
+}

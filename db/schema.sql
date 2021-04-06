@@ -1,0 +1,1 @@
+create table customer (id serial primary key, first_name text, last_name text);
